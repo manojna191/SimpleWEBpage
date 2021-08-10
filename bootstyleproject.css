@@ -1,0 +1,146 @@
+#header
+{
+	color: white;
+	background-color: #F75B00;
+}
+.color{
+	background-color: yellow;
+	padding: 10px;
+}
+#logo
+{
+	font-size: 2rem;
+	margin-top: 5px;
+}
+a:hover{
+	text-decoration: none;
+	background-color: #BD4C17;
+}
+#menu{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#menu li{
+	display: inline-block;
+}
+#menu li a{
+	color: white;
+	padding: 15px 10px; 
+	display: block;
+	text-decoration: none;
+}
+.section{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.section h2.section-head{
+	color: black;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.section h2.section-head:after{
+	background-color: #F75B00;
+	content: "";
+	display: block;
+	width: 100px;
+	height: 3px;
+	margin: 20px auto;
+}
+
+#banner{
+	background: url("plant1.jpg") no-repeat 0 0;
+	background-size: cover;
+}
+
+.banner-title h1{
+	background-color: rgba(255, 255, 255, 0.8);
+	display: inline-block;
+	padding: 10px;
+	margin: 0;
+}
+.banner-title p.lead{
+	color: white;
+	background-color: rgb(247, 91, 0, 0.7);
+	padding: 10px;
+} 
+.service-box i.fa{
+	color: #F75B00;
+	font-size: 70px;
+	margin-bottom: 15px;
+}
+.service-box
+{
+	text-align: center;
+}
+#testimonials
+{
+	color: white;
+	background: url("phone1.jpg") no-repeat 0 0;
+	background-size: cover;
+	padding: 50px;
+	position: relative;
+}
+.news-post image{
+	margin-bottom: 15px;
+	width: 100%;
+}
+.news-post h3{
+	font-size: 1.35rem;
+}
+.news-post h3 a{
+	color: #F75B00;
+	text-decoration: none;
+}
+.news-post h3 a:hover{
+	background-color: rgb(255, 255, 255,0.0);
+}
+.post-date
+{
+	font-size: 13px;
+	margin-bottom: 2px;
+}
+.post-date:before{
+	content: "\f073";
+	font-family: FontAwesome;
+	padding-right: 5px;
+}
+a.readmore{
+	font-size: 14px;
+	color: #F75B00;
+	text-decoration: none;
+}
+a.readmore:hover{
+	text-decoration: none;
+	background-color:rgb(255, 255, 255,0.0); 
+}
+#footer-sidebar{
+	color: white;
+	background-color: #1F3061;
+	padding: 20px 0;
+}
+.footer-widget h4:after{
+	background-color: white;
+	content: "";
+	display: block;
+	width: 50px;
+	height: 2px;
+	margin: 5px 0px;
+}
+
+.footer-widget a{
+	color: white;
+}
+.latest-news li a{
+	text-decoration:none;
+}
+.latest-news li a:hover{
+	background-color:rgb(255, 255, 255,0.0); 
+}
+#footer{
+	background-color: #192938;
+	color: white;
+	padding: 10px 0;
+}
